@@ -1,0 +1,177 @@
+a:hover {
+  cursor: pointer;
+}
+
+.optionsIcon:hover {
+  color: var(--info);
+}
+
+.optionsIconComment:hover {
+  color: var(--primary);
+}
+
+.nav-item:hover {
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+.myCentered {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.sitewideUser {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px; /* must adapt to a links in header*/
+  width: fit-content;
+}
+
+.sitewideUser img {
+  background-color: whitesmoke;
+  width: 32px;
+  height: 32px;
+  border-radius: 100px;
+  margin-left: 10px;
+  object-fit: cover;
+}
+
+.separator {
+  border: 1px #f2f1f0 solid;
+  height: 100%;
+}
+
+.profilepageProfilePic {
+  width: 180px;
+  height: 180px;
+}
+
+.searchProfilePic {
+  width: 72px;
+  height: 72px;
+}
+
+.homepageProfilePic {
+  width: 168px;
+  height: 168px;
+}
+
+.requestProfilePic {
+  max-width: 80px;
+  max-height: 80px;
+}
+
+.mainProfilePic {
+  /* max-width: 120px;
+  max-height: 120px; */
+  object-fit: cover;
+  background-color: white;
+  /* width: "150px"; */
+}
+
+.circleWindow {
+  /* cursor: pointer; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.5px solid #bdc7d8;
+  /* position: relative; */
+  border-radius: 80%;
+  /* max-width: 120px;
+  max-height: 120px; */
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.miniProfile_wall_link {
+  height: 40px; /*must fit wall profile image*/
+}
+
+.miniProfile_wall {
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  object-fit: cover;
+  background-color: white;
+  border: 0.5px solid #bdc7d8;
+  margin-right: 10px;
+  /* margin-left: 5px; */
+}
+
+.miniProfile_comment {
+  width: 25px;
+  height: 25px;
+  border-radius: 100px;
+  object-fit: cover;
+  background-color: white;
+  border: 0.5px solid #bdc7d8;
+  /* margin-right: 10px; */
+  /* margin-left: 5px; */
+}
+
+.wallPostNames a:hover {
+  text-decoration: underline;
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.searchResults {
+  width: 79%;
+  position: absolute;
+  border-left: 1px solid #bdc7d89c;
+  border-right: 1px solid #bdc7d89c;
+  border-bottom: 1px solid #bdc7d89c;
+  border-radius: 2px;
+  background-color: white;
+}
+
+div.searchBlock {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #bdc7d89c;
+  padding-top: 3%;
+  padding-left: 3%;
+}
+
+.searchBlock p {
+  margin-left: 8px;
+}
+
+.btn {
+  -webkit-box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+}
